@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+}
+
+.main {
+    position: absolute;
+    width: 73rem;
+    top: 5%;
+    left: 25%;
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 4px solid white;
+}
+
+.greece, .rome{
+    display: block;
+    text-align: center;
+    height: 100%;
+    padding-top: 25% !important;
+    color: #fff;
+    text-decoration: none;
+}
+
+.greece {
+    background: url("images/pathenon.jpg");
+}
+.rome {
+    background: url("images/colluseum.jpg");
+    background-position: 20% 50%;
+}
+
+h2 {
+    margin: 0 auto;
+    padding: 8px;
+    width: 350px;
+    border: 5px solid white;
+    background: rgba(0,0,0,0.2);
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.2);
+}
