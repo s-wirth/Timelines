@@ -1,0 +1,25 @@
+.greece {
+    width: 49%;
+    background: none;
+    position: absolute;
+    top: 0;
+    left: 45%;
+    border-left: 30px solid #8b0000;
+    height: 500px;
+    overflow: scroll;
+}
+
+.custom-btn {
+    background: none;
+    border: none;
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: #8b0000;
+    text-decoration: none;
+}
+
+.arrow {
+    padding: 0;
+    margin-left: 44.3%;
+    margin-top: 500px;
+}
