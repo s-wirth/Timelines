@@ -2,9 +2,493 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="rome.css">
+    <link rel="stylesheet" href="timelines.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
     <title>Antikes Rom</title>
 </head>
 <body>
-rom
+<div class="main">
+    <h1>Zeitstrahl der römischen Antike</h1>
+    <h2>Klicken Sie auf einen Punkt ihrer Wahl, um mehr zu erfahren.</h2>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#grundung">• 753vChr, Gründung Roms</button>
+
+    <div class="modal fade" id="grundung" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Gründung Roms</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/She-wolf_suckles_Romulus_and_Remus.jpg" alt="Romulus und Remus mit Wolf">
+                    Die Sage: Die Zwillinge Romulus und Remus wurden ausgesetzt, weil Amulius König werden wollte. Die Brüder waren die Kinder von Rhea, der Tochter von König Numitor, dem Bruder von Amulius. Doch eine Wölfin fand die Babys und säugte sie, bis ein Hirte sie mit in sein Haus nahm und großzog.
+
+                    Als sie erwachsen waren, wollten sie eine neue Stadt gründen, und zwar an der Stelle, an der der Hirte sie gefunden hatte. Sie gerieten aber über den genauen Standort der neuen Stadt in Streit. Außerdem verspottete Remus seinen Bruder über die geringe Höhe der neuen Stadtmauer und sprang darüber, um zu zeigen, wie niedrig sie sei. Damit erzürnte er Romulus so sehr, dass der Remus erschlug. Romulus wurde zum ersten König der neuen Stadt und ihr Namensgeber. Der Tag der Gründung soll der 21. April 753 v. Chr. gewesen sein.
+
+                    Tatsächlich war es wohl so, dass die Dörfer auf den sieben Hügeln, von denen Kapitol und Palatin die bekanntesten sind, langsam zu einer Stadt wurden. Die Lage am Tiber war günstig, denn durch eine Furt, also eine niedrige Stelle im Fluss, konnte man das Wasser hier bequem überqueren. Auch als Schiffshandelsweg bot der Tiber eine gute Lage für eine Stadt. In Rom herrschten dann etwa 250 Jahre lang Könige. Mehrere von ihnen, vielleicht sogar alle, waren Etrusker. Die Römer übernahmen viel von den Etruskern.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#lastKing">• 510vChr, Der letzte König wird vertrieben</button>
+
+    <div class="modal fade" id="lastKing" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Der letzte König wird vertrieben</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="http://imperiumromanum.com/personen/politiker/luciusiuniusbrutus_01.jpg" alt="Lucius Tarquinius Superbus">
+                    Lucius Tarquinius Superbus ist eine der sagenumwobensten Personen der römischen Frühgeschichte, sogar in einem Gedicht Shakespears wird er erwähnt. Als grausamer Tyrann unterdrückte er das römische Volk; als Feldherr vergrößerte er das Gebiet Roms. Seinen Beinahmen "Superbus" erhielt er vom Volk: Er war als "Der Überhebliche" gemeint, Tarquinius Superbus verstand ihn allerdings mit der zweiten Bedeutung des lateinischen Wortes "superbus, a, um": Als "Der Stolze".
+                    <br>
+                    Er gilt in der Geschichte als Tyrann und wurde wohl von seinen eigenen Leuten ermordet.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#pyrrhus">• 264vChr, Der Pyrrhische Krieg</button>
+
+    <div class="modal fade" id="pyrrhus" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Der Pyrrhische Krieg</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Guerre_di_Pirro_in_latino.jpg" alt="Der Pyrrhische Krieg">
+                    Der Pyrrhische Krieg (auch Pyrrhoskrieg oder Tarentinischer Krieg) war eine Auseinandersetzung zwischen Pyrrhos I. von Epirus und dem Römischen Reich, die zwischen 280 v. Chr. bis 275 v. Chr. stattfand. Er war ein bedeutender Vorbote der Punischen Kriege, da Rom sich durch seinen Sieg als eine militärische Großmacht etablierte, und damit unausweichlich auf eine Konfrontation mit der anderen Großmacht im Mittelmeerraum, Karthago, zusteuerte.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#1punisch">• 264-241vChr, Erster Punischer Krieg</button>
+
+    <div class="modal fade" id="1punisch" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Erster Punischer Krieg</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="http://vignette2.wikia.nocookie.net/rompedia/images/9/92/Pun.gif/revision/latest?cb=20080526071615" alt="Erster Punischer Krieg">
+                    Der 1. Punische Krieg war im Wesentlichen ein Krieg um Sizilien, ausgelöst wurde er durch Hilferufe der Mamertiner an Rom und Karthago. Die Mamertiner waren ehemalige römische Söldner, die sich in Messina niedergelassen hatten, von dort aus immer wieder die benachbarten Städte heimsuchten und 265 v. Chr. von Hieron II. von Syrakus geschlagen worden waren. Karthago kam dem Hilfsersuchen nach und besetzte Messina. Rom war allerdings nicht willens, sich damit abzufinden, dass diese wichtige Stadt an der Meerenge zum italienischen Festland nun in karthagischer Hand war, und wurde zudem von den mit Rom verbündeten Städten in Süditalien zum Eingreifen gedrängt. Rom entsandte Truppen nach Sizilien – angeblich nur, um Messina von den Karthagern zu befreien, tatsächlich aber wohl, um die Karthager überhaupt von der Insel zu vertreiben.Dies misslingt ihnen aber und sie zogen sich zurück.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#2punisch">• 218-201vChr, Zweiter Punischer Krieg </button>
+
+    <div class="modal fade" id="2punisch" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Zweiter Punischer Krieg</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="http://www.kinderzeitmaschine.de/uploads/tx_sgkzm/HannibalsFeldzug.jpg" alt="Zweiter Punischer Krieg">
+                    Der Zweite Punische Krieg wurde von 218 v. Chr. bis 201 v. Chr. zwischen Römern und Karthagern (lateinisch Punier) ausgetragen. Der karthagische Feldherr Hannibal aus dem Geschlecht der Barkiden brachte Rom zunächst durch eine Reihe taktisch geschickt geführter Schlachten an den Rand der Niederlage. Die Römer gingen daraufhin zu einem langjährigen Abnutzungskrieg über und siegten schließlich in der Schlacht von Zama unter ihrem Feldherrn Scipio dem Älteren. Der Krieg entschied den Kampf der beiden Städte um die Vorherrschaft im Mittelmeerraum endgültig zugunsten Roms.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#3punisch">• 149-146vChr, Dritter Punischer Krieg</button>
+
+    <div class="modal fade" id="3punisch" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Dritter Punischer Krieg</h4>
+                </div>
+                <div class="modal-body">
+                    Der Anlass war dass Karthago von den Numidiern angegriffen wurde und sich wehrte. Rom erklärt Karthago Krieg.
+                    <br>
+                    Das römische Heer belagert Karthago, Karthago gibt auf und händigt alle Waffen aus. Rom verlangt zerstörte Stadtmauern und die Umsiedlung der Dorfbewohner. Karthager weigern sich, bauen neue Waffen, schaffen 3 Jahre. Im Endeffekt hatten sie aber keine Chance. Viele Katharger sterben, Rest begeht Selbstmord(damit sie nicht Sklaven Roms werden).
+                    Karthagos Gebiet wird römische Provinz.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#pergamon">• 133vChr, Diadochenreich Pergamon geht durch Erbschaft an Rom über</button>
+
+    <div class="modal fade" id="pergamon" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Diadochenreich Pergamon geht durch Erbschaft an Rom über</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="http://www.cityscouter.com/images/berlin/ishtar-gate-in-the-pergamon-museum.jpg" alt="Pergamon">
+                    Der letzte König von Pergamon Attalos II stirbt 138vChr ohne Nachfolger und Erbe. Per Testament geht das gesamte Königreich an Rom.
+                    <br>
+                    133vChr tritt das Römische Reich das Erbe von Attalos II an.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#grachen">• 122vChr, Gracchus</button>
+
+    <div class="modal fade" id="grachen" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Grachenkämpfe</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Eugene_Guillaume_-_the_Gracchi.jpg" alt="">
+                    Zweig des plebejischen Adelsgeschlechts der Sempronier im alten Rom; erlangte besondere politische Bedeutung durch die Brüder Tiberius Sempronius Gracchus (* 162 v. Chr., † 133 v. Chr.) und Gaius Sempronius Gracchus (* 153 v. Chr., † 121 v. Chr.). Als Volkstribun des Jahres 133 v. Chr. wollte Tiberius Gracchus durch eine Neuverteilung des großenteils in den Händen der adligen Großgrundbesitzer befindlichen ager publicus die Lage des römischen Bauerntums verbessern. Als er sich entgegen der Verfassung für das Jahr 132 v. Chr. erneut zum Volkstribun wählen lassen wollte, kam es zum Kampf, und er wurde mit 200–300 seiner Anhänger erschlagen. – 123 v. Chr. nahm Gaius Gracchus das Reformprogramm seines Bruders wieder auf. Durch ein Korngesetz (Verteilung des Getreides zu niedrigsten Preisen) gewann er die Menge. Für die Agrarreform sah er außeritalisches Land vor. 122 v. Chr. erneut zum Volkstribun gewählt, stellte er einen Antrag auf Verleihung des vollen Bürgerrechts an die Latiner und des latinischen Rechts an die übrigen italischen Bundesgenossen. Der Widerstand der Optimaten führte 121 v. Chr. zu Kämpfen
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#marian">• 104vChr, Marianische Heeresreform</button>
+
+    <div class="modal fade" id="marian" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Marianische Heeresreform</h4>
+                </div>
+                <div class="modal-body">
+                    Der Begriff „Heeresreform des Marius“ oder auch „marianische Heeresreform“ fasst eine Reihe von Entwicklungen im römischen Heerwesen zusammen, die in der älteren Forschung dem römischen Feldherrn und Politiker Gaius Marius zugeschrieben wurden.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#julius">• 100vChr, Geburt Julius Caesars</button>
+
+    <div class="modal fade" id="julius" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Geburt Julius Caesars</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Caesar-Altes-Museum-Berlin.jpg/1024px-Caesar-Altes-Museum-Berlin.jpg" alt="">
+                    Der patrizischen Familie der Julier entstammend, absolvierte er die Ämterlaufbahn und gelangte durch ein Bündnis mit dem reichen Marcus Licinius Crassus und dem erfolgreichen Militär Gnaeus Pompeius Magnus im Jahr 59 v. Chr. zum Konsulat. In den folgenden Jahren ging Caesar als Prokonsul in die nördlichen Provinzen Illyrien und Gallia Cis- und Transalpina, von wo aus er in den Jahren 58 bis 51 v. Chr. ganz Gallien bis zum Rhein eroberte. Im anschließenden Römischen Bürgerkrieg von 49 bis 45 v. Chr. setzte er sich gegen seinen ehemaligen Verbündeten Pompeius und dessen Anhänger durch und errang die Alleinherrschaft. Nach seiner Ernennung zum Diktator auf Lebenszeit fiel er einem Attentat zum Opfer. Sein Großneffe und Haupterbe Gaius Octavius (später Kaiser Augustus) setzte das Prinzipat als neue Staatsform des Römischen Reiches endgültig durch.
+
+                    Der Name Caesars wurde zum Bestandteil des Titels aller nachfolgenden Herrscher des römischen Kaiserreichs. In der römischen Spätantike und im Byzantinischen Reich bezeichnete der Titel „Caesar“ einen Mitherrscher oder Thronfolger. In den entlehnten Formen Kaiser und Zar wurde der Name später auch zum Titel der Herrscher des Heiligen Römischen, des Österreichischen, des Deutschen, des Bulgarischen, des Serbischen und des Russischen Reiches.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#sulla">• 80vChr, Sulla wird Diktator</button>
+
+    <div class="modal fade" id="sulla" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Sullas Diktator</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Sulla_Glyptothek_Munich_309.jpg/1024px-Sulla_Glyptothek_Munich_309.jpg" alt="">
+                    Lucius Cornelius Sulla Felix (* um 138 v. Chr.; † 78 v. Chr.; kurz Sulla, manchmal auch Sylla oder Silla geschrieben[1]) war ein römischer Politiker, Feldherr und Diktator in der Spätphase der Republik.
+
+                    Korruption sowie Konflikte um die Landverteilung und das Bürgerrecht hatten die römische Republik in einen Zustand innerer Gewalt geführt. In dieser Krise stieg Sulla als bedeutender Kommandeur auf. Als Quästor des Feldherrn Gaius Marius beendete er den Jugurthinischen Krieg und wurde nach seinen Erfolgen im Bundesgenossenkrieg zum Konsul des Jahres 88 v. Chr. gewählt. In den folgenden Jahren drängte er Mithridates VI. von Pontus zurück. Als führender Vertreter der konservativen Adelspartei (Optimaten) marschierte er in den Jahren 88 und 83 v. Chr. auf Rom, um seine popularen Gegenspieler zu beseitigen.
+
+                    Nach dem Sieg im Bürgerkrieg ließ Sulla sich 82 v. Chr. zum Diktator ernennen. Auf der Grundlage seiner zeitlich unbeschränkten Kompetenz legibus scribundis et rei publicae constituendae („Gesetze zu geben und den Staat zu ordnen“) führte er die ersten Proskriptionen der römischen Geschichte durch und ließ tausende römische Adlige töten. Seine Verfassungsreformen zielten auf nachhaltige Restauration der Senatsherrschaft und die Schwächung demokratischer Institutionen wie des Volkstribunats. Im Jahre 79 v. Chr. legte Sulla die Diktatur nieder und zog sich in das Privatleben zurück. Seine Schreckensherrschaft konnte den Bürgerkrieg und den Untergang der alten Republik indes nur kurzzeitig aufhalten. Sullas Name steht bis zur Gegenwart für Grausamkeit und Terror.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#julius">• 44vChr, Julius Caesar wird Alleinherrscher</button>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#iden">• 44vChr, Iden des März</button>
+
+    <div class="modal fade" id="iden" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Julius Caesar wird an den Iden des März ermordet</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Cesar-sa_mort.jpg" alt="">
+                    Bei den Iden des März (von lateinisch Idus Martii) handelt es sich um eine in vielen Sprachen gebräuchliche Metapher für bevorstehendes Unheil, die auf die Ermordung Gaius Iulius Caesars am 15. März des Jahres 44 vor Christus Bezug nimmt.
+
+                    Nach Plutarch warnte der Augur Titus Vestricius Spurinna Caesar am Tage vor dem Anschlag mit den Worten: „Cave Idus Martias“ (deutsch: „Hüte dich vor den Iden des März“).
+
+                    Iden wurden Festtage genannt, die im römischen Kalender in der Monatsmitte liegen. Im Martius (März) sowie in den Monaten Maius, Quintilis und October fielen sie auf den 15., in den anderen Monaten auf den 13. Tag des Monats.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#augustus">• 31vChr-14nChr, Augustus ist Alleinherrscher</button>
+
+    <div class="modal fade" id="augustus" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Augustus ist Alleinherrscher</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="http://www.kinderzeitmaschine.de/uploads/tx_sgkzm/Augustus_as_pontifex_maximus_wiki_frei.jpg" alt="">
+                    Im Jahre 27 v. Chr. erklärte Octavian feierlich, dass die Republik wieder hergestellt sei. Tatsächlich aber war er selber der Alleinherrscher im Reich. Er nannte sich selber "Erster Bürger" (lat. princeps = der erste). Er brachte den Senat hinter sich. Er ließ sich AUGUSTUS nennen, das bedeutet "der Erhabene". Er sicherte den Frieden nach den langen Jahren des Bürgerkriegs. Man nannte diese Zeit sogar  nach ihm Pax Augusta, also "Augusteischer Frieden".
+
+                    Prinzipat und Kaiser
+                    AUGUSTUS regierte 41 Jahre. So festigte sich das Kaisertum in den Köpfen der Menschen und es vollzog sich der Wandel zu einer Monarchie  mit einem Kaiser an der Spitze. Heute nennen wir diese Herrschaft "Prinzipat". Die Principes trugen den Titel "Kaiser", der sich von Cäsars Namen ableitet. Der wurde nämlich damals "Kaisar" ausgesprochen.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#adoptivkaiser">• 93-180nChr, Herrschaft der Adoptivkaiser</button>
+
+    <div class="modal fade" id="adoptivkaiser" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Herrschaft der Adoptivkaiser</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Emperor_Hadrian_Louvre_Ma3131_n2.jpg/1024px-Emperor_Hadrian_Louvre_Ma3131_n2.jpg" alt="Hadrian">
+                    Das Adoptivkaisertum umfasst eine Periode der Römischen Kaiserzeit, in der die Nachfolge in der Herrschaft regelmäßig durch Adoption bestimmt wurde (98 bis 180 n. Chr.). Nach der damals offiziell verbreiteten Lesart ging es hierbei um die Auswahl des jeweils geeignetsten Kandidaten als Nachfolger. Die moderne Forschung hat diese idealisierende Sichtweise mittlerweile aber stark relativiert.
+
+                    Adoptivkaiser im Sinne des gängigen historischen Begriffs waren Nerva, Trajan, Hadrian, Antoninus Pius, Mark Aurel und Lucius Verus, die sämtlich nicht als leibliche Söhne ihrer Vorgänger zur Herrschaft gelangten. In anderen Sprachen wird diese kaiserzeitliche Ära – unter Bezug auf Antoninus Pius als Namensgeber – mitunter als Antoninische Dynastie bezeichnet, dann auch mit Einbeziehung von Mark Aurels Sohn Commodus.[1]
+
+                    Der Prinzipat der Kaiser von Nerva bis Mark Aurel gilt auch heute noch oft als Glanzzeit des Römischen Reiches und als Sinnbild für gute monarchische Herrschaft, weshalb diese Kaiser (unter Auslassung des Mitkaisers Verus) besonders im englischsprachigen Raum auch als „die fünf guten Kaiser“ bezeichnet werden. In ihren Herrschaftszeitraum fällt mit Trajan zunächst die Phase der größten Ausdehnung, die das Römische Reich überhaupt je hatte, sowie in der Folge eine militärisch vergleichsweise entspannte Epoche äußerer und innerer Konsolidierung, infrastrukturellen Ausbaus und wirtschaftlicher Prosperität. Das Ende dieser von Autoren wie Cassius Dio und Herodian rückblickend als „goldenes Zeitalter“ verklärten Ära scheint auf in den Selbstbetrachtungen des „Philosophenkaisers“ Mark Aurel aus dessen letzten Regierungsjahren.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#romarea">• 117nChr, Rom erreicht seine größte Außdehnung</button>
+
+    <div class="modal fade" id="romarea" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Rom erreicht seine größte Außdehnung</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Roemischeprovinzentrajan.png" alt="">
+                    Zum Zeitpunkt seiner größten Ausdehnung unter Kaiser Trajan erstreckte sich das Römische Reich über Territorien auf drei Kontinenten rund um das Mittelmeer: von Gallien und großen Teilen Britanniens bis zu den Gebieten rund um das Schwarze Meer (siehe auch Bosporanisches Reich). Damit beherrschte Rom den gesamten Mittelmeerraum.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#soldierking">• 234nChr, Soldatenkaiser</button>
+
+    <div class="modal fade" id="soldierking" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Soldatenkaiser</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Emperor_Traianus_Decius_%28Mary_Harrsch%29.jpg" alt="">
+                    Als Soldatenkaiser werden in der althistorischen Forschung oft die Kaiser bezeichnet, die im Zeitraum von 235 bis 284/85 die Macht im Römischen Reich ausübten. In der älteren Forschung wurden vereinzelt auch die Kaiser der Jahre 180–235 (Commodus und die Severer) beziehungsweise 284–305 (Diokletian) zu den Soldatenkaisern gezählt.
+
+                    In die Zeit der Soldatenkaiser fällt die sogenannte Reichskrise des 3. Jahrhunderts, in der das Imperium sowohl einer verstärkten Bedrohung von außen ausgesetzt war als auch im Inneren mit erheblichen Problemen zu kämpfen hatte.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#westrom">• 476nChr, Westrom geht unter</button>
+
+    <div class="modal fade" id="westrom" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Westrom geht unter</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Roman_Empires_476AD.svg/1753px-Roman_Empires_476AD.svg.png" alt="">
+                    Das weströmischen Reich endete mit der Absetzung des weströmischen Kaisers Romulus Augustulus im Jahr 476 (bzw. mit dem Tod des letzten von Ostrom anerkannten Kaisers Julius Nepos im Jahr 480), wobei höchst unterschiedliche Theorien entworfen wurden und werden. Zentral ist hierbei vor allem die Frage, ob primär innere Faktoren (z. B. strukturelle Probleme, angebliche Dekadenz, religiöse und soziale Umbrüche, Bürgerkriege) oder der Druck durch äußere Angreifer (Germanen, Hunnen, Perser) für die Entwicklung verantwortlich zu machen sind.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#volkerwanderung">• 250-500nChr, Völkerwanderung</button>
+
+    <div class="modal fade" id="volkerwanderung" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Völkerwanderung</h4>
+                </div>
+                <div class="modal-body">
+                    Durch anhaltende Kriege, neue Entdeckungen, Dürre Perioden, politische Unruhen und andere Disaster kommt es zu großen Völkerwanderungen.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!--_________________________________________________________________________________________________________-->
+
+    <button type="button" class="custom-btn" data-toggle="modal" data-target="#ostrom">• 1453nChr, Ostrom geht unter</button>
+
+    <div class="modal fade" id="ostrom" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Ostrom geht unter</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Roman_Empires_476AD.svg/1753px-Roman_Empires_476AD.svg.png" alt="">
+                    Das oströmische/byzantinische Reich überdauerte den Zusammenbruch des weströmischen Kaisertums. Es ging erst 1453 mit der Eroberung Konstantinopels durch Sultan Mehmed II., bei welcher der letzte byzantinische Kaiser Konstantin XI. den Tod fand, zu Ende.
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<div class="arrow">
+</div>
 </body>
 </html>
